@@ -65,19 +65,34 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 a {
+	/* remove the underline from anchor text */
 	text-decoration: none;
-	color: black;
 }
+
 hr {
 	margin: 1em auto;
 }
+
+h1{
+	font-size: 5.3em;
+	text-justify: center;
+	text-align: center;
+	width: 175px;
+}
+
 nav {
 	display: inline-block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	word-spacing: 5em;
+}
+nav a {
+	color: grey;
 }
 
 section {
 	display: inline-block;
-	margin-left: 10%;
+	margin-left: 15%;
+	margin-right: 15%; 
 	border: 2px solid gray;
 
 }
@@ -87,21 +102,25 @@ section {
 }
 
 .btn {
-	margin: 2%;	
-	padding: 1% 10% 1%;
+	padding: 2% 25% 2%;
 	background-color: white;
-	box-sizing: border-box;
 	}
 
-.bigHeader{
-	background-color: blue;
+.btn:hover {
+	background-color: black;
+	color: greenyellow;
+}
+
+div.textAboveBtn{
 	display: inline-block;
+	margin-left: 23%;
+	margin-right: 11%;
+	margin-bottom: 5%;
+	text-align: center;
+	width: 250px;
+
 }
 
-.bigHeader:nth-child {
-	display: inline;
-
-}
 header {
 	display: inline-block;
 }
