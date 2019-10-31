@@ -68,7 +68,10 @@ h1, h2, h3, h4, h5 {
 a {
 	/* remove the underline from anchor text */
 	text-decoration: none;
+	color: darkslategrey;
 }
+
+
 .logo {
 	margin-left: 1em;
 	position: absolute;
@@ -95,7 +98,7 @@ nav {
 	word-spacing: 3.7em;
 	margin-top: 0.2em;
 	margin-bottom: 2.4em;
-	padding-bottom: 0.2em;
+	padding: 1em;
 }
 
 nav a {
@@ -119,7 +122,7 @@ section {
 }
 
 .btn {
-	padding: 2% 25% 2%;
+	padding: 2% 20% 2%;
 	background-color: white;
 	}
 
@@ -136,15 +139,11 @@ section {
 	text-align: center;
 	width: 250px;
 }
-.navigator{
+.navigate{
 	overflow: hidden;
+	width: 90%;
 }
-p {
-	padding-right: 5%;
-	display: block;
-	width: 35%;
 
-}
 .copyright {
 	padding: 2em;
 	text-align: center;
@@ -153,9 +152,58 @@ p {
 	margin-right: auto;
 }
 .twoBlocks {
-	display: inline-block;
+	/* background-color: grey; */
+	width: 876px;
+}
+.twoBlocks {
+	/* padding: 0 1em; */
+	margin: 1em 0;
+	/* background-color: olivedrab; */
+}
+.threeBlocks {
+	/* padding: 1em; */
+	margin: 1em 0;
+	/* background-color: peachpuff; */
+	width: 876px;
+
 }
 address{
-	padding: 1em 0;
+	padding-bottom: 1em;
 	width: 150px;
+}
+#features {
+	/* border: 1px solid black; */
+	display: inline-block;
+	vertical-align: top;
+	width: 420px;
+
+}
+#about {
+	/* border: 1px dotted black; */
+	display: inline-block;
+	vertical-align: top;
+	width: 420px;
+
+}
+#services {
+	/* border: 1px dotted black; */
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+}
+#product {
+	/* border: 1px dotted black; */
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	margin: 0 42px 0;
+}
+#vision {
+	/* border: 1px dotted black; */
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+}
+.middle-img {
+	margin: 1.5em 0;
 }
